@@ -31,6 +31,9 @@ You can install **GhostKit** as your Ghost Theme using one of these two methods 
 You can see a live demo version of this theme here
 --under construction--
 
+here is the preview
+![preview](http://i.imgur.com/F54lHw3.png)
+
 ### Copyright and License
 Copyright &copy;  2015 Barkah Wibowo - Released under the MIT License.
 
