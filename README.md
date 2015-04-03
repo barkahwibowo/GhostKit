@@ -3,10 +3,11 @@
 **GhostKit** is a simple theme based on UiKit HTML and CSS Template for [Ghost](http://ghost.org) Blogging Platform.
 
 
+
 ## Installation
 You can install **GhostKit** as your Ghost Theme using one of these two methods :
 
-### First Method, manually using ZIP File
+#### First Method, manually using ZIP File
 1. Download this repository using "Download ZIP" button
 2. Upload the downloaded zip file to your Ghost server
 3. Put it inside `ghost/content/themes/`
@@ -14,14 +15,14 @@ You can install **GhostKit** as your Ghost Theme using one of these two methods 
 5. Login to your Ghost admin page, go to 'Settings'
 6. Set **GhostKit** as your theme, and save
 
-### Second Method, using Git
+#### Second Method, using Git
 1. Navigate to your Ghost theme directory `ghost/content/themes`
 2. Clone this repository using `git clone https://github.com/satriyowibowo/GhostKit "ghostkit"`
 3. Restart your Ghost
 4. Login to your Ghost admin page, go to 'Settings'
 5. Set **GhostKit** as your theme, and save
 
-### Demo
+## Demo
 You can see a live demo version of this theme here
 [GhostKit Demo](http://maswibowo.web.id)
 
