@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class="uk-notouch" pmbx_context="922FCC67-4AE1-428F-8BBD-F997B87FED5C">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{meta_description}}">
+        <title>{{meta_title}}</title>
+        <link rel="shortcut icon" href="{{asset "images/favicon.ico"}}" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" href="{{asset "image/apple-touch-icon.png"}}">
+        <link rel="stylesheet" href="{{asset "css/uikit.mod.css"}}">
+        <link rel="stylesheet" href="{{asset "css/sticky.min.css"}}">
+        <link rel="stylesheet" href="{{asset "css/tooltip.min.css"}}">
+        {{ghost_head}}
+    </head>
+
+    <body class="{{body_class}}">
+
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+
+            {{> navigation}}
+
+            {{{body}}}
+
+        </div>
+        
+        <hr class="uk-grid-divider">
+
+        <div class="uk-panel uk-panel uk-container-center uk-text-center">
+            <a class="uk-button uk-button-large uk-text-center" data-uk-sticky="" data-uk-smooth-scroll="" href="#" data-uk-tooltip title="Ke Atas"><i class="uk-icon-angle-double-up"></i></a>
+        </div>
+
+        {{> footer}}
+
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/uikit.min.js"></script>
+        <script type="text/javascript" src="assets/js/sticky.min.js"></script>
+        <script type="text/javascript" src="assets/js/tooltip.min.js"></script>
+        <script type="text/javascript" src="assets/js/offcanvas.min.js"></script>
+        {{ghost_foot}}
+    </body>
+</html>

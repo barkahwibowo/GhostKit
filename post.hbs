@@ -1,0 +1,53 @@
+{{! post page}}
+{{!< default}}
+<div class="uk-grid" data-uk-grid-margin="">
+				{{#post}}
+                <div class="uk-width-medium-3-4">
+
+                    <article class="uk-article">
+
+                        <h1 class="uk-article-title">{{title}}</h1>
+
+                        <p class="uk-article-meta">
+							Written by {{#author}}<a href="{{url}}">{{name}}</a>{{/author}} on {{date format="DD MMMM YYYY"}}
+							<br>{{tags separator=" | " prefix="Posted in: "}}
+						</p>
+
+                        <p>{{content}}</p>
+
+                    </article>
+
+                </div>
+                {{/post}}
+
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-panel uk-panel-box uk-text-center">
+                	{{#author}}                 
+                        <img class="uk-border-circle" width="120" height="120" src="{{author.image}}" alt="">
+                        <h3>{{author.name}}</h3>
+                        <p>{{author.bio}}</p>
+                    {{/author}}                        
+                    </div>
+                    <div class="uk-panel">
+                        <h3 class="uk-panel-title">Archives</h3>
+                        <ul class="uk-list uk-list-line">
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">January 2014</a></li>
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">December 2013</a></li>
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">November 2013</a></li>
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">October 2013</a></li>
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">September 2013</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-panel">
+                        <h3 class="uk-panel-title">Social Links</h3>
+                        <ul class="uk-list">
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">GitHub</a></li>
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">Twitter</a></li>
+                            <li><a href="http://getuikit.com/docs/layouts_post.html#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>

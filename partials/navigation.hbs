@@ -1,0 +1,21 @@
+<nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky="">
+    <a class="uk-navbar-brand uk-hidden-small" href="{{@blog.url}}"><img width="80" height="80" src="{{@blog.logo}}" alt=""></a>
+    <div class="uk-navbar-flip">
+    <ul>
+        {{#foreach navigation}}
+            <li class="{{#if current}} uk-active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+    </ul>
+    </div>
+    <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+    <div class="uk-navbar-brand uk-navbar-center uk-visible-small">{{@blog.title}}</div>
+</nav>
+<div id="offcanvas" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas">
+            {{#foreach navigation}}
+                <li class="{{#if current}} uk-active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+            {{/foreach}}
+        </ul>
+    </div>
+</div>
