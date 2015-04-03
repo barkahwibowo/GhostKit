@@ -1,10 +1,16 @@
 # GhostKit
+##Content
+- [Summary](https://github.com/satriyowibowo/GhostKit#summary)
+- [Installation](https://github.com/satriyowibowo/GhostKit#installation)
+- [Demo](https://github.com/satriyowibowo/GhostKit#Demo)
+- [Copyright and License](https://github.com/satriyowibowo/GhostKit#Copyright)
 
+## Summary
 **GhostKit** is a simple theme based on UiKit HTML and CSS Template for [Ghost](http://ghost.org) Blogging Platform.
 
 
 
-## Installation
+### Installation
 You can install **GhostKit** as your Ghost Theme using one of these two methods :
 
 #### First Method, manually using ZIP File
@@ -22,11 +28,11 @@ You can install **GhostKit** as your Ghost Theme using one of these two methods 
 4. Login to your Ghost admin page, go to 'Settings'
 5. Set **GhostKit** as your theme, and save
 
-## Demo
+### Demo
 You can see a live demo version of this theme here
 [GhostKit Demo](http://maswibowo.web.id)
 
-## Copyright and License
+### Copyright and License
 Copyright &copy;  2015 Barkah Wibowo - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
