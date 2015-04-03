@@ -29,7 +29,7 @@ You can install **GhostKit** as your Ghost Theme using one of these two methods 
 
 ### Demo
 You can see a live demo version of this theme here
-[GhostKit Demo](http://maswibowo.web.id)
+--under construction--
 
 ### Copyright and License
 Copyright &copy;  2015 Barkah Wibowo - Released under the MIT License.
