@@ -4,6 +4,7 @@
 - [Summary](https://github.com/satriyowibowo/GhostKit#summary)
 - [Installation](https://github.com/satriyowibowo/GhostKit#installation)
 - [Demo](https://github.com/satriyowibowo/GhostKit#demo)
+- [Credits](https://github.com/satriyowibowo/GhostKit#credits)
 - [Copyright and License](https://github.com/satriyowibowo/GhostKit#copyright-and-license)
 
 ### Summary
@@ -29,10 +30,14 @@ You can install **GhostKit** as your Ghost Theme using one of these two methods 
 
 ### Demo
 You can see a live demo version of this theme here
---under construction--
+[GhostKit Demo](http://128.199.66.160)
 
 here is the preview
 ![preview](http://i.imgur.com/F54lHw3.png)
+
+### Credits
+- [Uikit](http://getuikit.com)
+- [Highlight JS](https://highlightjs.org)
 
 ### Copyright and License
 Copyright &copy;  2015 Barkah Wibowo - Released under the MIT License.
