@@ -13,9 +13,11 @@
 			</div>
 
 
-			{{> loop}}
+			<section id="latestpost">
+				{{> loop}}
+			</section>
+			<section id="pagination">
+				<hr class="uk-grid-divider">
+				{{pagination}}
+			</section>
 
-
-			<hr class="uk-grid-divider">
-
-			{{pagination}}
