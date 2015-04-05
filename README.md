@@ -38,6 +38,7 @@ here is the preview
 ### Credits
 - [Uikit](http://getuikit.com)
 - [Highlight JS](https://highlightjs.org)
+- [Disqus](http://disqus.com)
 
 ### Copyright and License
 Copyright &copy;  2015 Barkah Wibowo - Released under the MIT License.
