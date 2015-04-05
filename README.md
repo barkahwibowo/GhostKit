@@ -30,7 +30,7 @@ You can install **GhostKit** as your Ghost Theme using one of these two methods 
 
 ### Demo
 You can see a live demo version of this theme here
-[GhostKit Demo](http://128.199.66.160)
+[GhostKit Demo](http://ghostkit.mwbw.ga)
 
 here is the preview
 ![preview](http://i.imgur.com/F54lHw3.png)
