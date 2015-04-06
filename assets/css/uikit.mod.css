@@ -1,5 +1,5 @@
 html {
-  font: normal 16px / 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 16px / 30px Verdana, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   background: #f7f7f7;
@@ -120,7 +120,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 15px 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
   font-weight: normal;
   color: #444444;
   text-transform: none;
