@@ -1,9 +1,9 @@
 <nav class="uk-navbar uk-margin-large-bottom" data-uk-sticky="">
     <a class="uk-navbar-brand uk-hidden-small" href="{{@blog.url}}"><img class="uk-border-circle" width="50" height="50" src="{{@blog.logo}}" alt=""></a>
     <div class="uk-navbar-flip">
-    <ul class="nav">
+    <ul class="uk-navbar-nav">
         {{#foreach navigation}}
-            <li class="nav-{{slug}}{{#if current}} uk-active nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+            <li class="{{#if current}}uk-active{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
         {{/foreach}}
     </ul>
     </div>
